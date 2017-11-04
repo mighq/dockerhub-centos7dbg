@@ -1,1 +1,39 @@
-# dockerimage-centos7dbg
+# http://www.brendangregg.com/Perf/linux_observability_tools.png
+# https://github.com/brendangregg/perf-tools
+--baserepo
+which
+net-tools:netstat,arp,ifconfig,route
+iproute:ip,ss,tc
+iptables:iptables-save,iptables
+strace:strace
+tcpdump:tcpdump
+gdb:gdb,gcore
+bind-utils:dig,host,nslookup
+procps:vmstat,slabtop
+procps-ng:top
+dstat:dstat
+sysstat:iostat,sar,mpstat
+wireshark:tshark
+nc
+nmap
+iputils:ping,arping
+traceroute
+ethtool
+util-linux-ng:lsblk
+blktrace
+pciutils
+mtr
+lsof
+mc
+vim-enhanced:vim
+perf
+--epel
+htop
+iperf
+iftop
+iptraf-ng
+httpry
+ngrep
+socat
+ncdu
+#
