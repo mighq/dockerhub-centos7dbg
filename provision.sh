@@ -8,6 +8,7 @@ yum makecache
 
 base_pkgs=(
   which
+  less
   net-tools
   iproute
   iptables
