@@ -48,6 +48,7 @@ epel_pkgs=(
   ngrep
   socat
   ncdu
+  jq
 )
 yi "${epel_pkgs[@]}"
 
