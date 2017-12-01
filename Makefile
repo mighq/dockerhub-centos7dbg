@@ -1,4 +1,4 @@
-VERSION='0.2'
+VERSION='0.3'
 
 image:
 	docker build -t centos7dbg:${VERSION} .
