@@ -34,6 +34,9 @@ base_pkgs=(
   mc
   vim-enhanced
   perf
+  openssh-clients
+  lftp
+  curl
 )
 yi "${base_pkgs[@]}"
 
