@@ -5,4 +5,6 @@ image:
 
 push: image
 	docker tag  centos7dbg:${VERSION} mighq/centos7dbg:${VERSION}
+	docker tag  centos7dbg:${VERSION} mighq/centos7dbg:latest
 	docker push mighq/centos7dbg:${VERSION}
+	docker push mighq/centos7dbg:latest
