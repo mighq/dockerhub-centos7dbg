@@ -37,6 +37,7 @@ base_pkgs=(
   openssh-clients
   lftp
   curl
+  openssl
 )
 yi "${base_pkgs[@]}"
 
@@ -52,6 +53,7 @@ epel_pkgs=(
   socat
   ncdu
   jq
+  stress
 )
 yi "${epel_pkgs[@]}"
 
