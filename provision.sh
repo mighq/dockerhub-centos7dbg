@@ -38,6 +38,7 @@ base_pkgs=(
   lftp
   curl
   openssl
+  conntrack-tools
 )
 yi "${base_pkgs[@]}"
 
